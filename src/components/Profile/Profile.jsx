@@ -12,7 +12,11 @@ export default function Profile(){
         <img src={picOfMe} alt="a picture of justin mcdonald" className="about__picture" />
         <div src={picOfMe} className="about__picture about__picture_offset"></div>
         <p className="about__description">I am an aspiring Full Stack Engineer who is diligent and tenacious, continually seeking to fill any knowledge gaps in pursuit of my goals. I am self-motivated, bilingual, and a people person who collaborates effectively in a team and works well independently.</p>
+        
       </div>
+        <a className='about__download-cv' href="https://drive.google.com/file/d/1ytytqSTtx5SL2pSOf_WG2-lBH-zYQpst/view?usp=sharing" target='_blank'>
+          <button className="contact__button contact__button_cv">Download CV</button>
+        </a>
     </section>
   )
 }

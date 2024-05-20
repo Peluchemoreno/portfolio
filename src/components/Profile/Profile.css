@@ -46,3 +46,13 @@
   z-index: 1;
   margin: 0;
 }
+
+.about__profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__download-cv {
+  margin-top: 30px;
+}

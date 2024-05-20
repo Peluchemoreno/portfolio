@@ -11,6 +11,7 @@ html {
   background-size: 400% 400%;
   animation: move-bg 30s ease infinite;
   padding: 10px;
+  min-width: 450px;
 }
 
 .app__content {
