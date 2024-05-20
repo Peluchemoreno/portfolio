@@ -32,7 +32,7 @@
 .contact__form {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 80%;
   padding: 20px;
 }
