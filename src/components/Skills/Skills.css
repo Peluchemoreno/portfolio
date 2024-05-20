@@ -1,0 +1,11 @@
+
+.skills__container{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+  gap: 35px;
+  padding: 0 40px;
+}
+

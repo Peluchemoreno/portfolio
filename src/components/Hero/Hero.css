@@ -1,0 +1,120 @@
+.hero {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.hero__title {
+  width: 50%;
+  text-align: center;
+  font-family: "Chakra Regular";
+  margin-bottom: 50px;
+  margin-top: 250px;
+}
+
+.hero__more-button {
+  border: none;
+  background-color: var(--accent-orange);
+  font-family: "Chakra Regular";
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  border-radius: 5px;
+}
+
+.hero__more-button:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.hero__more-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: width .3s ease-in-out;
+}
+
+.hero__more-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  border-top: 2px solid rgb(0, 0, 0);
+  transition: width .3s ease-in-out;
+}
+
+.hero__more-button:hover::before {
+  width: 100%;
+}
+
+.hero__more-button:hover::after {
+  width: 100%;
+}
+
+.hero__button-container_outer{
+  position: relative;
+}
+
+.hero__button-container::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  border-left: 2px solid black;
+  transition: height .3s ease-in-out;
+  z-index: 2;
+}
+
+.hero__button-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0%;
+  border-left: 2px solid black;
+  transition: height .3s ease-in-out;
+}
+
+.hero__button-container:hover::before {
+  height: 100%;
+}
+
+.hero__button-container:hover::after {
+  height: 100%;
+}
+
+.hero__social-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 50%;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.hero__social-link-image {
+  width: 40px;
+  transition: transform .3s ease-in-out;
+}
+
+.hero__social-link-image:hover {
+  transform: scale(1.1);
+}
+
+.hero__more-button-span {
+  position: relative;
+  top: -5px;
+}

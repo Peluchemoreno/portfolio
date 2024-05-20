@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Jacquard';
+  src: url('../src/vendor/fonts/Jacquard12-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Chakra Regular';
+  src: url('../src/vendor/fonts/Chakra/ChakraPetch-Regular.ttf');
+}
+
+:root {
+  --darkest-blue: #03256C;
+  --blue-med-dark: #2541B2;
+  --blue-med: #1768AC;
+  --light-blue: #06BEE1;
+  --white: #fff;
+  --accent-orange: #de8f34;
+}
+
+a {
+  color: black;
+}

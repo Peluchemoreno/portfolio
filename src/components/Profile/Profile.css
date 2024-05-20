@@ -1,0 +1,48 @@
+.about {
+  padding-bottom: 50px;
+}
+
+.about__header {
+  text-align: center;
+}
+
+.about__title {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.about__subtitle {
+  font-size: 24px;
+  margin: 0;
+}
+
+.about__picture {
+  width: 150px;
+  height: 150px;
+}
+
+.about__profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.about__description {
+  margin: 0;
+  width: 50%;
+  line-height: 28px;
+  font-size: 24px;
+  margin-left: -100px;
+}
+
+.about__picture_offset {
+  position: relative;
+  right: 145px;
+  border: 1px solid white;
+  z-index: 1;
+  margin: 0;
+}

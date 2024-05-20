@@ -1,0 +1,30 @@
+.footer__text {
+  margin: 0;
+  font-family: "Chakra Regular";
+}
+
+.footer {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  margin-left: auto;
+}
+
+.footer__link-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__link-image {
+  width: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: scale .3s ease-in-out;
+}
+
+.footer__link-image:hover{
+  scale: 1.1;
+}

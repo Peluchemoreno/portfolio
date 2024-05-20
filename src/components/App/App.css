@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background:radial-gradient(circle at center, var(--darkest-blue) 10px, var(--blue-med-dark), var(--blue-med), var(--light-blue), var(--white));
+  background-size: 400% 400%;
+  animation: move-bg 30s ease infinite;
+  padding: 10px;
+}
+
+.app__content {
+  /* background-color: #fff; */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@keyframes move-bg {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

@@ -1,0 +1,6 @@
+.main__background {
+  /* border: 1px solid black; */
+  background-color: rgba(0, 0, 0, .6);
+  font-family: "Chakra Regular";
+  color: white;
+}
