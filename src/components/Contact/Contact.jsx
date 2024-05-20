@@ -5,7 +5,7 @@ export default function Contact(){
     <section className="contact">
       <h2 className="contact__header">Contact Me</h2>
       <div className="contact__contents">
-        <form method='post' action="send.php" href='' className="contact__form">
+        <form method='get' action="send.php" className="contact__form">
           <label className='contact__form-label' htmlFor="name">
             Name
             <input className='contact__form-input' type="text" id='name' name='name' required/>
@@ -25,7 +25,7 @@ export default function Contact(){
           <div className="contact__form-buttons">
 
           <a href="mailto:jmcdmoreno19@aol.com">
-          <button className="contact__button contact__button_email">Email Me</button>
+          <button type='submit' className="contact__button contact__button_email">Email Me</button>
         </a>
           </div>
         </form>
