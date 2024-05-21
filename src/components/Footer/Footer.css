@@ -28,3 +28,13 @@
 .footer__link-image:hover{
   scale: 1.1;
 }
+
+@media screen and (max-width: 700px) {
+  .footer__link-item {
+    display: flex;
+  }
+
+  .footer__text{
+    font-size: 20px;
+  }
+}

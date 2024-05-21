@@ -118,3 +118,9 @@
   position: relative;
   top: -5px;
 }
+
+@media screen and (max-width: 700px){
+  .hero__title {
+    margin-top: 30%;
+  }
+}

@@ -9,3 +9,8 @@
   padding: 0 40px;
 }
 
+@media screen and (max-width: 700px){
+  .skills__container {
+    gap: 10px;
+  }
+}

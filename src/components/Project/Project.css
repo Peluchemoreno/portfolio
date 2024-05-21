@@ -76,3 +76,21 @@
   border-bottom-right-radius: 20px;
   border: 1px solid black;
 }
+
+@media screen and (max-width: 700px){
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project__title {
+    padding-top: 30px;
+  }
+}

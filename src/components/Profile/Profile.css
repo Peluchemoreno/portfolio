@@ -56,3 +56,28 @@
 .about__download-cv {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 700px){
+  .about__description {
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .about__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .about__picture_offset{
+    display: none;
+  }
+
+  .about__picture {
+    margin-top: 40px;
+  }
+}
