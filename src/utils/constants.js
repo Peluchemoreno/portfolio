@@ -75,11 +75,11 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'Finance Tracker',
-    image: new URL('../assets/project-screenshots/finance.gif', import.meta.url).href,
-    githubLink: 'https://github.com/Peluchemoreno/finance',
-    liveDemoLink: 'https://peluchemoreno.github.io/finance/#',
-    description: `A responsive web app that allows employees to keep track of their finances by taking inventory of the purchases they made, as well as track how much their paycheck will be with taxes already calculated. The technologies I used to build this were Vanilla JS, again, with emphasis on OOP principles. There is no database connected to this app.`
+    name: 'WTWR',
+    image: new URL('../assets/project-screenshots/wtwr-demo.gif', import.meta.url).href,
+    githubLink: 'https://github.com/Peluchemoreno/se_project_react',
+    liveDemoLink: 'https:rwtw.strangled.net/',
+    description: `A completely built full stack web application that communicates with the openWeather API, a custom built API that interfaces with MongoDB, and comes complete with user authentication and data validation. Users can add clothing items depending on the weather and will be recommended what to wear based on the current weather conditions. The technologies I used to build this were React.js, Express.js, Node.js, MongoDB, Jest, Postman, JWT, Winston, and Bcrypt.js.`
   },
   {
     id: 3,
